@@ -64,7 +64,7 @@ RATE_LIMIT_MAX_REQUESTS=20
 
 Example file:
 
-[backend/.env.example](c:\Users\jinki\OneDrive\Bilder\Desktop\CODElens\codelens\backend\.env.example)
+[backend/.env.example](backend/.env.example)
 
 Optional frontend configuration:
 
@@ -183,7 +183,7 @@ curl -X POST http://localhost:3001/explain \
 
 The current repository includes:
 
-- backend tests in [backend/app.test.js](c:\Users\jinki\OneDrive\Bilder\Desktop\CODElens\codelens\backend\app.test.js)
+- backend tests in [backend/app.test.js](backend/app.test.js)
 - frontend linting
 - frontend production build validation
 - local end-to-end smoke verification through the development workflow
@@ -205,14 +205,14 @@ npm run verify
 
 ## Repository References
 
-- Backend entrypoint: [backend/server.js](c:\Users\jinki\OneDrive\Bilder\Desktop\CODElens\codelens\backend\server.js)
-- Backend application factory: [backend/app.js](c:\Users\jinki\OneDrive\Bilder\Desktop\CODElens\codelens\backend\app.js)
-- Frontend page: [frontend/app/page.tsx](c:\Users\jinki\OneDrive\Bilder\Desktop\CODElens\codelens\frontend\app\page.tsx)
-- Frontend global styles: [frontend/app/globals.css](c:\Users\jinki\OneDrive\Bilder\Desktop\CODElens\codelens\frontend\app\globals.css)
+- Backend entrypoint: [backend/server.js](backend/server.js)
+- Backend application factory: [backend/app.js](backend/app.js)
+- Frontend page: [frontend/app/page.tsx](frontend/app/page.tsx)
+- Frontend global styles: [frontend/app/globals.css](frontend/app/globals.css)
 
 ## Current Limitations
 
-This project is in a strong local-development and portfolio-ready state, but it is not a complete production system. Areas not yet covered include:
+This project is in a strong local-development and portfolio-ready state, but it is not a complete production system. Remaining gaps include:
 
 - persistent or distributed rate limiting
 - authentication and user management
