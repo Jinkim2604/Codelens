@@ -1,0 +1,17 @@
+{
+  "name": "codelens",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm run start",
+    "test": "npm run test --prefix backend",
+    "lint": "cd frontend && npm run lint",
+    "build": "cd frontend && npm run build",
+    "verify": "npm run test && npm run lint && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
